@@ -1,4 +1,4 @@
 // The program input for calculator/src/main.leo
-[main]
-public a: u32 = 1u32;
-b: u32 = 2u32;
+[calculate]
+// operation: 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division
+input: Calculation = Calculation { num1: 60i32, num2: 9i32, operation: 1u8 }; 
